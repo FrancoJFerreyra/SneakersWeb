@@ -1,0 +1,345 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+nav {
+  background-image: url(../../assets/BannerNav.jpg);
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-position: center;
+}
+
+nav > div > .user {
+  display: none;
+}
+
+.navbar {
+  align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  transition: 0.2s;
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav {
+  background-color: #9c6f6f;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: darkgray;
+  margin-top: 50px;
+}
+
+.navbar-collapse {
+  z-index: 10;
+}
+
+.user--login {
+  color: #ffa600;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+  margin-top: 7rem;
+  margin-left: 10.7rem;
+}
+
+.filter {
+  background-color: rgba(255, 0, 100, 0.5);
+}
+
+.publications {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+.publications > div {
+  display: flex;
+  flex-direction: column;
+}
+.publications > div > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+.publications > div > article > span {
+  text-align: center;
+}
+
+.publications--background1 {
+  background-image: url(../../assets/fondoAdidas.jpg);
+}
+
+.publications--background2 {
+  background-image: url(../../assets/FondoFila.jpg);
+}
+
+.publications--background3 {
+  background-image: url(../../assets/FondoConverse.jpg);
+}
+
+.publications--background4 {
+  background-image: url(../../assets/FondoNB.jpg);
+}
+
+.publications--background5 {
+  background-image: url(../../assets/FondoNike.jpg);
+}
+
+.publications--background6 {
+  background-image: url(../../assets/FondoPuma.jpg);
+}
+
+.card {
+  height: 25rem;
+  width: 15rem;
+  margin: 2rem 0rem 2rem 0rem;
+  transition: 0.2s;
+  font-family: "Oswald", sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.card-title {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.card-img-top {
+  height: 14rem;
+  width: 15rem;
+}
+
+.form,
+.consultation {
+  background-color: #fffcc7;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.form .formTitle {
+  font-weight: bold;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+fieldset > div {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form--number, .form--adress {
+  margin-top: 1rem;
+}
+
+.submitForm {
+  margin-bottom: 3rem;
+}
+
+.terms {
+  background-color: #fcb4e0;
+  margin-top: 1rem;
+}
+
+.contactBackground {
+  background-image: url(../../assets/contactBackground.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background {
+  background-image: linear-gradient(white, grey, black);
+  display: grid;
+  grid-template-areas: "adidas . fila . nb" "nike . puma . vans";
+  grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+}
+.background > * {
+  border: solid 1px;
+  background-color: white;
+}
+.background > article > img {
+  width: 200px;
+  height: 180px;
+}
+
+.trademarkAdidas {
+  grid-area: adidas;
+}
+
+.trademarkFila {
+  grid-area: fila;
+}
+
+.trademarkNb {
+  grid-area: nb;
+}
+
+.trademarkNike {
+  grid-area: nike;
+}
+
+.trademarkPuma {
+  grid-area: puma;
+}
+
+.trademarkVans {
+  grid-area: vans;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  background-color: tan;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+.info > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.info--dates {
+  margin-top: 1rem;
+}
+
+.info__dates--document, .info--adress, .account--password {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #343a40;
+  color: seashell;
+  display: flex;
+  justify-content: space-around;
+}
+footer > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 285px;
+}
+footer > section > p {
+  text-align: center;
+  line-height: 25px;
+}
+footer > section > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerTitle {
+  background-color: #9f838e;
+  font-weight: bold;
+  text-decoration: underline;
+  display: inline;
+}
+
+.footer__contact--email {
+  width: 16rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .publications {
+    align-items: center;
+  }
+
+  .footer__contact--email {
+    width: 30.72rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .publications {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .publications > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .form--number, .form--adress {
+    margin-top: 0rem;
+  }
+
+  nav > div > .user {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 6.5rem;
+  }
+  nav > div > img {
+    margin-bottom: 7rem;
+  }
+
+  .div__form--name {
+    width: 64rem;
+  }
+
+  .form {
+    margin-left: 3rem;
+  }
+  .form .formTitle {
+    margin-right: 3rem;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  fieldset > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .submitForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+  }
+  .info > div {
+    flex-direction: column;
+    width: 20rem;
+  }
+}/*# sourceMappingURL=style.css.map */

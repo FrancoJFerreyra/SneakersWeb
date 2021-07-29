@@ -1,0 +1,31 @@
+footer{
+  background-color: rgb(52, 58, 64);
+  color: seashell;
+  display: flex;
+  justify-content: space-around;
+  >section{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 285px;
+  >p{
+    text-align: center;
+    line-height: 25px;
+  }
+  >form{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  }
+}
+.footerTitle {
+  background-color: rgb(159, 131, 142);
+  font-weight: bold;
+  text-decoration: underline;
+  display: inline;
+}
+.footer__contact--email {
+  width: 16rem;
+}
+

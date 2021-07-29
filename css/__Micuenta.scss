@@ -1,0 +1,18 @@
+$margin:1rem;
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: tan;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    >div{
+        display: flex;
+  flex-direction: column;
+    }
+  }
+  .info--dates {
+    margin-top: $margin;
+  }
+  .info__dates--document,.info--adress ,  .account--password{
+    margin-bottom: $margin;
+  }

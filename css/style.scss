@@ -1,0 +1,79 @@
+@import "__nav.scss";
+@import "__index.scss";
+@import "__Contacto.scss";
+@import "__Marcas.scss";
+@import "__Micuenta.scss";
+@import "__Footer.scss";
+@media only screen and (max-width: 768px) {
+  .publications {
+    align-items: center;
+  }
+  .footer__contact--email {
+    width: 30.72rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .publications {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .publications {
+    > div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  .form--number, .form--adress{
+    margin-top: 0rem;
+  }
+  nav {
+    > div {
+      > .user {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-bottom: 6.5rem;
+      }
+      > img {
+        margin-bottom: 7rem;
+      }
+    }
+  }
+  .div__form--name {
+    width: 64rem;
+  }
+  .form {
+    margin-left: 3rem;
+    .formTitle {
+      margin-right: 3rem;
+    }
+  }
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  .submitForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    > div {
+      flex-direction: column;
+      width: 20rem;
+    }
+  }
+}
