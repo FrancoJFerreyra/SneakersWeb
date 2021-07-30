@@ -132,45 +132,21 @@ nav > div > .user {
   width: 15rem;
 }
 
-.form,
-.consultation {
-  background-color: #fffcc7;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-}
-
-.form .formTitle {
-  font-weight: bold;
-}
-
-fieldset {
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-fieldset > div {
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.form--number, .form--adress {
-  margin-top: 1rem;
-}
-
-.submitForm {
-  margin-bottom: 3rem;
-}
-
-.terms {
-  background-color: #fcb4e0;
-  margin-top: 1rem;
-}
-
-.contactBackground {
-  background-image: url(../../assets/contactBackground.jpg);
-  background-size: cover;
+  background-image: url(../../assets/contactBackground1.jpg);
   background-position: center;
+  background-size: cover;
+  font-size: 1rem;
+  color: #161515;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+legend {
+  text-align: center;
 }
 
 .background {
@@ -235,6 +211,10 @@ fieldset > div {
   margin-bottom: 1rem;
 }
 
+.body__background {
+  background-image: url(../../assets/contactBackground1.jpg);
+}
+
 footer {
   background-color: #343a40;
   color: seashell;
@@ -272,10 +252,6 @@ footer > section > form {
   .publications {
     align-items: center;
   }
-
-  .footer__contact--email {
-    width: 30.72rem;
-  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .publications {
@@ -292,10 +268,6 @@ footer > section > form {
     justify-content: space-around;
   }
 
-  .form--number, .form--adress {
-    margin-top: 0rem;
-  }
-
   nav > div > .user {
     display: flex;
     flex-direction: column;
@@ -304,33 +276,6 @@ footer > section > form {
   }
   nav > div > img {
     margin-bottom: 7rem;
-  }
-
-  .div__form--name {
-    width: 64rem;
-  }
-
-  .form {
-    margin-left: 3rem;
-  }
-  .form .formTitle {
-    margin-right: 3rem;
-  }
-
-  fieldset {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  fieldset > div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .submitForm {
-    display: flex;
-    flex-direction: column;
   }
 
   .info {

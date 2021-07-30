@@ -1,39 +1,16 @@
-$margin:1rem;
-
-.form,
-.consultation {
-  background-color: rgb(255, 252, 199);
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-}
-.form {
-  .formTitle {
-    font-weight: bold;
-  }
-}
-fieldset {
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  > div {
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: column;
-  }
+  background-image: url(../../assets/contactBackground1.jpg);
+  background-position: center;
+  background-size: cover;
+  font-size: 1rem;
+ color: rgb(22, 21, 21);
+ font-weight: bold;
+ text-transform: uppercase;
 }
-.form--number, .form--adress{
-  margin-top: $margin;
+legend {
+  text-align: center;
 }
 
-.submitForm {
-  margin-bottom: 3rem;
-}
-.terms {
-  background-color: rgb(252, 180, 224);
-  margin-top: 1rem;
-}
-.contactBackground{
-    background-image: url(../../assets/contactBackground.jpg);
-    background-size: cover;
-    background-position: center;
-  }
