@@ -10,7 +10,7 @@ header {
 }
 
 nav {
-  background-image: url(../../assets/BannerNav.jpg);
+  background-image: url(../assets/BannerNav.jpg);
   height: 15rem;
   display: flex;
   flex-direction: row;
@@ -90,27 +90,27 @@ nav > div > .user {
 }
 
 .publications--background1 {
-  background-image: url(../../assets/fondoAdidas.jpg);
+  background-image: url(../assets/fondoAdidas.jpg);
 }
 
 .publications--background2 {
-  background-image: url(../../assets/FondoFila.jpg);
+  background-image: url(../assets/FondoFila.jpg);
 }
 
 .publications--background3 {
-  background-image: url(../../assets/FondoConverse.jpg);
+  background-image: url(../assets/FondoConverse.jpg);
 }
 
 .publications--background4 {
-  background-image: url(../../assets/FondoNB.jpg);
+  background-image: url(../assets/FondoNB.jpg);
 }
 
 .publications--background5 {
-  background-image: url(../../assets/FondoNike.jpg);
+  background-image: url(../assets/FondoNike.jpg);
 }
 
 .publications--background6 {
-  background-image: url(../../assets/FondoPuma.jpg);
+  background-image: url(../assets/FondoPuma.jpg);
 }
 
 .card {
@@ -138,7 +138,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../../assets/contactBackground1.jpg);
+  background-image: url(../assets/contactBackground1.jpg);
   background-position: center;
   background-size: cover;
   font-size: 1rem;
@@ -214,7 +214,7 @@ legend {
 }
 
 .body__background {
-  background-image: url(../../assets/contactBackground1.jpg);
+  background-image: url(../assets/contactBackground1.jpg);
 }
 
 footer {
