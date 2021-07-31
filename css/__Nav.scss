@@ -14,6 +14,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   background-position: center;
+  background-size: cover;
 }
 nav {
   > div {
@@ -37,7 +38,8 @@ nav {
     font-weight: bold;
   }
   .navbar-expand-lg .navbar-nav {
-    background-color: rgb(156, 111, 111);
+    background-color: rgb(190, 189, 189);
+    border-radius: 5px;
   }
   .navbar-light .navbar-toggler {
     background-color: darkgray;
