@@ -61,8 +61,6 @@ nav > div > .user {
 
 .navbar-expand-lg .navbar-collapse {
   justify-content: center;
-  margin-top: 7rem;
-  margin-left: 10.7rem;
 }
 
 .filter {
@@ -254,6 +252,11 @@ footer > section > form {
   .publications {
     align-items: center;
   }
+
+  .navbar-expand-lg .navbar-collapse {
+    margin-right: 30rem;
+    font-size: 1.3rem;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .publications {
@@ -262,8 +265,18 @@ footer > section > form {
     align-items: center;
     justify-content: space-evenly;
   }
+
+  .navbar-expand-lg .navbar-collapse {
+    font-size: 1.5rem;
+    margin-right: 32rem;
+  }
 }
 @media only screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    margin-top: 7rem;
+    margin-left: 10.7rem;
+  }
+
   .publications > div {
     display: flex;
     flex-direction: row;
