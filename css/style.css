@@ -254,8 +254,12 @@ footer > section > form {
   }
 
   .navbar-expand-lg .navbar-collapse {
-    margin-right: 30rem;
     font-size: 1.3rem;
+  }
+
+  .navbar-nav {
+    width: 14rem;
+    padding-left: 1rem;
   }
 
   .footer__contact--email {
