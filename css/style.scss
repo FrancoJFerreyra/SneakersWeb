@@ -18,6 +18,11 @@
   .footer__contact--email {
     width: 31rem;
   }
+  .col-md-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .publications {
