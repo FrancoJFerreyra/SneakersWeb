@@ -1,39 +1,17 @@
 .background {
-    background-image: linear-gradient(white,grey,black);
-    display: grid;
-    grid-template-areas:
-      "adidas . fila . nb"
-      "nike . puma . vans";
-    grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
+    background-image: url(../assets/fondoMarcas.jpg);
     justify-items: center;
-    >*{
-        border: solid 1px;
-  background-color: white;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    >div{
+        display: flex;
+        flex-direction: column;
     >article{
         >img{
-            width: 200px;
-  height: 180px;
+            width: 30rem;
+            height: 22rem;
         }
+      }  
     }
-  }
-  .trademarkAdidas {
-    grid-area: adidas;
-  }
-  .trademarkFila {
-    grid-area: fila;
-  }
-  .trademarkNb {
-    grid-area: nb;
-  }
-  .trademarkNike {
-    grid-area: nike;
-  }
-  .trademarkPuma {
-    grid-area: puma;
-  }
-  .trademarkVans {
-    grid-area: vans;
   }
