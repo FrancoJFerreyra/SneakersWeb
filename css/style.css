@@ -88,27 +88,27 @@ nav > div > .user {
 }
 
 .publications--background1 {
-  background-image: url(../assets/fondoAdidas.jpg);
+  background-image: url(../assets/adidasIndex.jpg);
 }
 
 .publications--background2 {
-  background-image: url(../assets/FondoFila.jpg);
+  background-image: url(../assets/filaIndex.jpg);
 }
 
 .publications--background3 {
-  background-image: url(../assets/FondoConverse.jpg);
+  background-image: url(../assets/ConverseIndex.jpg);
 }
 
 .publications--background4 {
-  background-image: url(../assets/FondoNB.jpg);
+  background-image: url(../assets/newbalanceIndex.jpg);
 }
 
 .publications--background5 {
-  background-image: url(../assets/FondoNike.jpg);
+  background-image: url(../assets/nikeIndex.jpg);
 }
 
 .publications--background6 {
-  background-image: url(../assets/FondoPuma.jpg);
+  background-image: url(../assets/PumaIndex.jpg);
 }
 
 .card {
@@ -240,6 +240,10 @@ footer > section > form {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  nav {
+    background-image: url(../assets/BannerNavMobile.jpg);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
