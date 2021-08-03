@@ -236,10 +236,6 @@ footer > section > form {
     padding-left: 1rem;
   }
 
-  .footer__contact--email {
-    width: 31rem;
-  }
-
   .col-md-4 {
     display: flex;
     flex-direction: column;
