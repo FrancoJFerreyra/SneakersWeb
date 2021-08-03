@@ -11,7 +11,7 @@ header {
 
 nav {
   background-image: url(../assets/BannerNav.jpg);
-  height: 15rem;
+  height: 10rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -267,6 +267,9 @@ footer > section > form {
     justify-content: space-around;
   }
 
+  nav {
+    height: 15rem;
+  }
   nav > div > .user {
     display: flex;
     flex-direction: column;
