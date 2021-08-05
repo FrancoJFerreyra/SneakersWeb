@@ -13,4 +13,17 @@ form {
 legend {
   text-align: center;
 }
+.form-check-input:checked{
+  background-color: black;
+  border-color: black;
+}
+.form-check-input:focus {
+  border-color: #000000;
+  outline: 0;
+  box-shadow: none;
+}
 
+.btn-primary{
+  background-color: black;
+  border-color: black;
+}
