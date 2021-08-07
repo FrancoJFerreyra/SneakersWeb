@@ -51,39 +51,82 @@
       </div>
     </nav>
   </header>
-  <section class="info">
-    <div>
-      <h2><b><u>Datos personales</u></b></h2>
-      <label for="name">Nombre</label>
-      <input type="text" name="name">
-      <label for="surname" class="info--dates info__dates--surname">Apellido</label>
-      <input type="text" name="surname">
-      <label for="document" class="info--dates">Documento de identidad</label>
-      <select>
-        <option>DNI</option>
-        <option>CUIT</option>
-        <option>Otro</option>
-      </select>
-      <input type="text" name="document" class="info__dates--document">
+  <form class="marcas__form">
+    <div class="marcas__form--inputs">
+    <div class="form-group"> <!-- Full Name -->
+      <label for="full_name_id" class="control-label">Nombre y apellido</label>
+      <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Juan Pérez">
+    </div>	
+  
+    <div class="form-group"> <!-- Street -->
+      <label for="street1_id" class="control-label">Direccion 1</label>
+      <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Avenida Corrientes 1202">
+    </div>					
+                
+    <div class="form-group"> <!-- Apartament -->
+      <label for="street2_id" class="control-label">Departamento</label>
+      <input type="text" class="form-control" id="street2_id" name="street2" placeholder="PB">
+    </div>	
     </div>
-    <div>
-      <h2><b><u>Datos de cuenta</u></b></h2>
-      <label for="email">Email</label>
-      <input type="email" name="email">
-      <div class="input-group flex-nowrap">
-        <span class="input-group-text" id="addon-wrapping">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-          aria-describedby="addon-wrapping">
+
+    <div class="marcas__form--inputs">
+      <div class="form-group"> <!-- Full Name -->
+        <label for="full_name_id" class="control-label">Nombre de usuario</label>
+        <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Juan_Pérez" required>
+      </div>	
+    
+      <div class="form-group"> <!-- Email -->
+        <label for="email" class="control-label">Email</label>
+        <input type="text" class="form-control" name="email" placeholder="juanperez@hotmail.com" required>
+      </div>					
+                  
+      <div class="form-group"> <!-- Apartament -->
+        <label for="password" class="control-label">Contraseña</label>
+        <input type="password" class="form-control" name="password">
+      </div>	
       </div>
-      <label for="password1">Contraseña</label>
-      <input type="password" name="password1" class="account--password">
+
+    <div class="marcas__form--inputs">
+    <div class="form-group"> <!-- Country-->
+      <label for="city_id" class="control-label">Pais</label>
+      <input type="text" class="form-control" id="city_id" name="city" placeholder="Argentina">
+    </div>									
+                
+    <div class="form-group"> <!-- Province -->
+      <label for="state_id" class="control-label">Provincia</label>
+      <select class="form-control" id="state_id" required>
+        <option>Buenos Aires</option>
+        <option>Catamarca</option>
+        <option>Chaco</option>
+        <option>Chubut</option>
+        <option>Córdoba</option>
+        <option>Corrientes</option>
+        <option>Entre Ríos</option>
+        <option>Formosa</option>
+        <option>Jujuy</option>
+        <option>La Pampa</option>
+        <option>La Rioja</option>
+        <option>Mendoza</option>
+        <option>Misiones</option>
+        <option>Neuquén</option>
+        <option>Río Negro</option>
+        <option>Salta</option>
+        <option>San Juan</option>
+        <option>San Luis</option>
+        <option>Santa Cruz</option>
+        <option>Santa Fe</option>
+        <option>Santiago Del Estero</option>
+        <option>Tierra Del Fuego</option>
+        <option>Tucumán</option>
+      </select>					
     </div>
-    <div>
-      <h2><b><u>Domicilio</u></b></h2>
-      <label for="adress">Direccion</label>
-      <input type="text" class="info--adress">
+    
+    <div class="form-group">
+      <label for="zip_id" class="control-label">Codigo postal</label>
+      <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####" required>
+    </div>		
     </div>
-  </section>
+  </form>
   <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
     <!-- Grid container -->
     <div class="container p-4 pb-0">

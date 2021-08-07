@@ -1,4 +1,4 @@
-form {
+.form__contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +10,7 @@ form {
  font-weight: bold;
  text-transform: uppercase;
 }
-legend {
+.form__contact--legend {
   text-align: center;
 }
 .form-check-input:checked{

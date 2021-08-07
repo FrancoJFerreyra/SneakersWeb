@@ -1,21 +1,24 @@
-$margin:1rem;
-.info {
-    display: flex;
-    flex-direction: column;
-    background-color: tan;
-    font-family: "Poppins", sans-serif;
-    align-items: center;
-    >div{
-        display: flex;
+.marcas__form {
+  display: flex;
   flex-direction: column;
-    }
+  align-items: center;
+  background-image: url(../assets/miCuentaBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  >.marcas__form--inputs{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   }
-  .info--dates {
-    margin-top: $margin;
-  }
-  .info__dates--document,.info--adress ,  .account--password{
-    margin-bottom: $margin;
-  }
-  .body__background{
-  background-image: url(../assets/contactBackground1.jpg);
-  }
+}
+.form-group{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(white,0.7)
+}
+.control-label{
+margin-top: 1rem;
+margin-bottom: 1rem;
+width: 17rem;
+}
