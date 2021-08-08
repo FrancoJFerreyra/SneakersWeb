@@ -1,13 +1,12 @@
+@import "__shortcuts.scss";
 .marcas__form {
-  display: flex;
-  flex-direction: column;
+  @include column;
   align-items: center;
   background-image: url(../assets/miCuentaBackground.jpg);
   background-size: cover;
   background-position: center;
   >.marcas__form--inputs{
-  display: flex;
-  flex-direction: column;
+  @include column;
   margin-top: 3rem;
   margin-bottom: 3rem;
   }

@@ -1,6 +1,6 @@
+@import "__shortcuts.scss";
 .form__contact {
-  display: flex;
-  flex-direction: column;
+  @include column;
   align-items: center;
   background-image: url(../assets/contactBackground1.jpg);
   background-position: center;

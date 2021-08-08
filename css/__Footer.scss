@@ -1,11 +1,11 @@
+@import "__shortcuts.scss";
 footer{
   background-color: rgb(52, 58, 64);
   color: seashell;
   display: flex;
   justify-content: space-around;
   >section{
-    display: flex;
-  flex-direction: column;
+    @include column;
   align-items: center;
   width: 285px;
   >p{
@@ -13,8 +13,7 @@ footer{
     line-height: 25px;
   }
   >form{
-    display: flex;
-  flex-direction: column;
+    @include column;
   align-items: center;
   }
   }
