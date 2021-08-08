@@ -39,6 +39,11 @@
   .publications--background6 {
     background-image: url(../assets/indexPumaMobile.jpg);
   }
+  .card {
+    flex-direction: row;
+    height: 14rem;
+    width: 26rem;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .publications {
