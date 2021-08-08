@@ -2,13 +2,10 @@
 @import "__index.scss";
 @import "__Contacto.scss";
 @import "__Marcas.scss";
-@import "__Micuenta.scss";
+@import "__miCuenta.scss";
 @import "__productos.scss";
 @import "__Footer.scss";
 @media only screen and (max-width: 768px) {
-  .publications {
-    align-items: center;
-  }
   .navbar-expand-lg .navbar-collapse {
     font-size: 1.3rem;
   }
@@ -41,13 +38,22 @@
   }
   .card {
     flex-direction: row;
-    height: 14rem;
-    width: 26rem;
+    height: 10.1rem;
+    width: 85%;
+  }
+  .card-img-top {
+    height: 10rem;
+    width: 10rem;
+  }
+  .card-body{
+    padding:0.5rem 0.5rem;
+  }
+  .card-title{
+    margin: 0rem 0rem 1rem 0rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .publications {
-    display: flex;
+  .card__mark--margin {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -62,9 +68,8 @@
     margin-top: 7rem;
     margin-left: 10.7rem;
   }
-  .publications {
+    .card__mark--margin{
     > div {
-      display: flex;
       flex-direction: row;
       justify-content: space-around;
     }

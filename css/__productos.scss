@@ -1,14 +1,17 @@
 .filter {
     background-color: rgba(255, 0, 100, 0.5);
   }
-  .publications {
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    background-position: center;
+  .publications{
+  background-size: cover;
+  background-position: center;
+  }
+    .card__mark--margin{
+      display: flex;
+      flex-direction: column;
     > div {
       display: flex;
       flex-direction: column;
+      align-items: center;
       > article {
         display: flex;
         flex-direction: column;
@@ -20,6 +23,7 @@
       }
     }
   }
+  
 
   .publications--background1 {
     background-image: url(../assets/adidasIndex.jpg);
@@ -55,4 +59,10 @@
   .card-img-top {
     height: 14rem;
     width: 15rem;
+  }
+  h1{
+    background-color: rgba($color: grey, $alpha: 0.6) ;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
   }
