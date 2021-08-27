@@ -1,21 +1,21 @@
 @import "__shortcuts.scss";
-footer{
+footer {
   background-color: rgb(52, 58, 64);
   color: seashell;
   display: flex;
   justify-content: space-around;
-  >section{
+  > section {
     @include column;
-  align-items: center;
-  width: 285px;
-  >p{
-    text-align: center;
-    line-height: 25px;
-  }
-  >form{
-    @include column;
-  align-items: center;
-  }
+    align-items: center;
+    width: 285px;
+    > p {
+      text-align: center;
+      line-height: 25px;
+    }
+    > form {
+      @include column;
+      align-items: center;
+    }
   }
 }
 .footerTitle {
@@ -27,4 +27,3 @@ footer{
 .footer__contact--email {
   width: 16rem;
 }
-
