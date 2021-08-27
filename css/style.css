@@ -158,10 +158,13 @@ video {
   margin-bottom: 1rem;
   width: 17rem;
   margin-left: 0.4rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .filter {
-  background-color: rgba(255, 0, 100, 0.5);
+  background-color: rgba(128, 125, 126, 0.5);
+  color: white;
 }
 
 .publications {
@@ -230,7 +233,7 @@ video {
 
 .card-img-top {
   height: 14rem;
-  width: 15rem;
+  width: 14.94rem;
 }
 
 h1 {

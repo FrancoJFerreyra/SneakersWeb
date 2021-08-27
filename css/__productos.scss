@@ -1,6 +1,7 @@
 @import "__shortcuts.scss";
 .filter {
-  background-color: rgba(255, 0, 100, 0.5);
+  background-color: rgba(128, 125, 126, 0.5);
+  color: white;
 }
 .publications {
   background-size: cover;
@@ -58,7 +59,7 @@
 }
 .card-img-top {
   height: 14rem;
-  width: 15rem;
+  width: 14.94rem;
 }
 h1 {
   background-color: rgba($color: grey, $alpha: 0.6);
