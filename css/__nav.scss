@@ -49,7 +49,12 @@ nav {
     z-index: 10;
   }
 .user--login {
-  color: rgb(255, 166, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.user--logout{
+  color: black;
+  font-weight: 600;
 }
 .navbar-expand-lg .navbar-collapse {
     justify-content: center;
