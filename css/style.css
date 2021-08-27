@@ -73,7 +73,7 @@ video {
   width: 100%;
 }
 
-.div--video {
+.div__home--video {
   line-height: 0px;
 }
 
@@ -347,6 +347,10 @@ footer > section > form {
   .card-text {
     font-size: 0.9rem;
   }
+
+  .home__img--mobile {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .card__mark--margin {
@@ -358,6 +362,10 @@ footer > section > form {
   .navbar-expand-lg .navbar-collapse {
     font-size: 1.5rem;
     margin-right: 32rem;
+  }
+
+  .div__home--img {
+    display: none;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -401,5 +409,9 @@ footer > section > form {
   .marcas__form {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .div__home--img {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
