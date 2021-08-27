@@ -110,6 +110,10 @@ video {
   border-color: black;
 }
 
+.form-label {
+  background-color: rgba(105, 105, 105, 0.7);
+}
+
 .background {
   background-image: url(../assets/fondoMarcas.jpg);
   justify-items: center;

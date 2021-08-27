@@ -9,16 +9,16 @@
   .navbar-expand-lg .navbar-collapse {
     font-size: 1.3rem;
   }
-  .navbar-nav{
+  .navbar-nav {
     width: 14rem;
     padding-left: 1rem;
   }
-  .col-md-4{
+  .col-md-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  nav{
+  nav {
     background-image: url(../assets/BannerNavMobile.jpg);
   }
   .publications--background1 {
@@ -30,7 +30,7 @@
   .publications--background3 {
     background-image: url(../assets/indexConverseMobile.jpg);
   }
-  .publications--background4{
+  .publications--background4 {
     background-image: url(../assets/indexNewbalanceMobile.jpg);
   }
   .publications--background5 {
@@ -48,25 +48,25 @@
     height: 10rem;
     width: 10rem;
   }
-  .card-body{
-    padding:0.5rem 0.5rem;
+  .card-body {
+    padding: 0.5rem 0.5rem;
   }
-  .card-title{
+  .card-title {
     margin: 0rem 0rem 1rem 0rem;
   }
   .p-4 {
-    padding-top: 0rem!important;
+    padding-top: 0rem !important;
   }
   .mt-3 {
-    margin-top: 0.5rem!important;
+    margin-top: 0.5rem !important;
   }
   .mb-4 {
-    margin-bottom: 0.5rem!important;
+    margin-bottom: 0.5rem !important;
   }
-  .card-text{
+  .card-text {
     font-size: 0.9rem;
   }
-  .home__img--mobile{
+  .home__img--mobile {
     width: 100%;
   }
 }
@@ -76,11 +76,11 @@
     align-items: center;
     justify-content: space-evenly;
   }
-  .navbar-expand-lg .navbar-collapse{
-  font-size: 1.5rem;
-  margin-right: 32rem;
+  .navbar-expand-lg .navbar-collapse {
+    font-size: 1.5rem;
+    margin-right: 32rem;
   }
-  .div__home--img{
+  .div__home--img {
     display: none;
   }
 }
@@ -89,7 +89,7 @@
     margin-top: 7rem;
     margin-left: 10.7rem;
   }
-    .card__mark--margin{
+  .card__mark--margin {
     > div {
       flex-direction: row;
       justify-content: space-around;
@@ -118,16 +118,16 @@
       width: 20rem;
     }
   }
-  .background{
-    >div{
+  .background {
+    > div {
       flex-direction: row;
     }
   }
-  .marcas__form{
+  .marcas__form {
     flex-direction: row;
-  justify-content: space-evenly;
+    justify-content: space-evenly;
   }
-  .div__home--img{
+  .div__home--img {
     display: none;
   }
 }
